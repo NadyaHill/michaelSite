@@ -1,0 +1,171 @@
+*{
+	background-color: #46241E;
+}
+
+
+a {
+	text-decoration: none;
+	color: #FAF3EB;
+}
+
+a:hover{
+	color: #F8F281;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+#name {
+	display: inline-block;
+	font-family: "Meddon";
+	color: #FAF3EB;
+	font-size: 30px;
+}
+
+.tenor {
+	display: inline-block;
+	font-family: "Josefin Sans";
+	color: #F8F281;
+}
+
+.navBar {
+	display: inline-block;
+	position: relative;
+	font-family: "Josefin Sans";
+	padding-top: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #FAF3EB;
+	text-align: center;
+/*	float: right;*/
+}
+
+#home {
+	padding-left: 50px;
+}
+
+@media screen and (min-width: 1002px){
+    .break { 
+    	display: none;
+/*    	float: left; */
+    }
+}
+
+@media screen and (max-width: 1002px){
+    ul {
+		text-align: center;
+/*		float: left;*/
+	}
+}
+
+@media screen and (max-width: 505px){
+	#name {
+		font-size: 20px;
+	}
+	.tenor {
+		font-size: 15px;
+	}
+	.navBar {
+		font-size: 15px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+/*@media (max-width: 945px) {
+	.navBar {
+		display: block;
+	}
+}*/
+
+
+.navBar:active {
+	transform: translateY(2px);
+}
+
+
+.content {
+	position: relative;
+	left: 10px;
+	font-family: "Josefin Sans";
+	font-size: 17px;
+	color: #FAF3EB;
+	padding: 5px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.photo {
+	position: relative;
+	float: left;
+	height: 300px;
+	margin: 20px;
+	margin-right: 30px;
+	padding: 7px;
+	border: 1px solid #FAF3EB;
+/*	border: 1px solid #F8F281;*/
+}
+
+
+h1 {
+	color: #F8F281;
+	font-family:"Josefin Sans";
+	font-size: 25px;
+/*	padding-left: 20px;*/
+}
+
+
+.space {
+	height: 50px;
+}
+
+.smallSpace {
+	height: 25px;
+}
+
+
+
+
+/*alternate stuff for new homepage*/
+
+.picture {
+	width: 95vw;
+	text-align: center;
+	position: relative;
+}
+
+.footer {
+	color: #FAF3EB;
+	text-align: center;
+	font-family: "Josefin Sans";
+	font-size: 12px;
+}
+
+
+
+/*all stuff for resume portion*/
+.resume {
+	text-align: center;
+}
+
+.resumeSpecific{
+	width: 60vw;
+}
+
+
+/*all for contact page*/
+.contact {
+	text-align: center;
+}
+
+.contactInfo {
+	text-decoration: none;
+	list-style-type: none;
+	color: #FAF3EB;
+	font-family: "Josefin Sans";
+	font-size: 25px;
+}
+
+
