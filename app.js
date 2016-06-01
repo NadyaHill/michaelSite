@@ -40,6 +40,9 @@ app.get('/contact', function (req, res) {
 	res.sendFile('contact.html', {root:'./public'})
 });
 
+// app.get('/main.jpg', function (req, res) {
+// 	res. sendFile('main.jpg', {root: '../images'})
+// })
 
 // Creating Server and Listening for Connections \\
 var port = 3000
